@@ -1,6 +1,6 @@
 package demo.springframework.springpetclinic.model;
 
-public class Person {
+public class Person extends BaseEntity {
 
     // Attributes
     private String firstName;
