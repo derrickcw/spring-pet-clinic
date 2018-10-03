@@ -2,7 +2,7 @@ package demo.springframework.springpetclinic.services;
 
 import java.util.Set;
 
-public interface CurdService<T, ID> {
+public interface CrudService<T, ID> {
 
     Set<T> findAll();
 
